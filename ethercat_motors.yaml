@@ -1,0 +1,183 @@
+motors:
+  - name: motor_01
+    alias: 1100
+    vendor_id: "0x00202008"
+    product_code: "0x00000000"
+    pdo_channel: pvt
+    counts_per_rev: 262144
+    rated_torque: 5.0  # N*m
+
+  # - name: motor_01
+  #   alias: 1100
+  #   vendor_id: "0x00202008"
+  #   product_code: "0x00000000"
+  #   pdo_channel: pdo260224
+  #   counts_per_rev: 262144
+  #   rated_torque: 5.0  # N*m
+
+  - name: motor_02
+    alias: 1101
+    vendor_id: "0x00202008"
+    product_code: "0x00000000"
+    pdo_channel: pvt
+    counts_per_rev: 262144
+    rated_torque: 5.0  # N*m
+
+  - name: motor_03
+    alias: 1102
+    vendor_id: "0x00202008"
+    product_code: "0x00000000"
+    pdo_channel: pvt
+    rated_torque: 108.0  # N*m
+
+  - name: motor_04
+    alias: 1103
+    vendor_id: "0x00202008"
+    product_code: "0x00000000"
+    pdo_channel: pvt
+    rated_torque: 108.0  # N*m
+
+  - name: motor_05
+    alias: 1104
+    vendor_id: "0x00202008"
+    product_code: "0x00000000"
+    pdo_channel: pvt
+    rated_torque: 20.0  # N*m
+
+  - name: motor_06
+    alias: 1105
+    vendor_id: "0x00202008"
+    product_code: "0x00000000"
+    pdo_channel: pvt
+    rated_torque: 20.0  # N*m
+
+  - name: motor_07
+    alias: 1106
+    vendor_id: "0x00202008"
+    product_code: "0x00000000"
+    pdo_channel: pvt
+    rated_torque: 17.0  # N*m
+
+  - name: motor_08
+    alias: 1107
+    vendor_id: "0x00202008"
+    product_code: "0x00000000"
+    pdo_channel: pvt
+    rated_torque: 17.0  # N*m
+
+  - name: motor_09
+    alias: 1108
+    vendor_id: "0x00202008"
+    product_code: "0x00000000"
+    pdo_channel: pvt
+    rated_torque: 14.0  # N*m
+
+  - name: motor_10
+    alias: 1109
+    vendor_id: "0x00202008"
+    product_code: "0x00000000"
+    pdo_channel: pvt
+    rated_torque: 108.0  # N*m
+
+  - name: motor_11
+    alias: 1110
+    vendor_id: "0x00202008"
+    product_code: "0x00000000"
+    pdo_channel: pvt
+    rated_torque: 108.0  # N*m
+
+  - name: motor_12
+    alias: 1111
+    vendor_id: "0x00202008"
+    product_code: "0x00000000"
+    pdo_channel: pvt
+    rated_torque: 20.0  # N*m
+
+  - name: motor_13
+    alias: 1112
+    vendor_id: "0x00202008"
+    product_code: "0x00000000"
+    pdo_channel: pvt
+    rated_torque: 20.0  # N*m
+
+  - name: motor_14
+    alias: 1113
+    vendor_id: "0x00202008"
+    product_code: "0x00000000"
+    pdo_channel: pvt
+    rated_torque: 17.0  # N*m
+
+  - name: motor_15
+    alias: 1114
+    vendor_id: "0x00202008"
+    product_code: "0x00000000"
+    pdo_channel: pvt
+    rated_torque: 17.0  # N*m
+
+  - name: motor_16
+    alias: 1115
+    vendor_id: "0x00202008"
+    product_code: "0x00000000"
+    pdo_channel: pvt
+    rated_torque: 14.0  # N*m
+
+  - name: l_hand
+    alias: 1116
+    vendor_id: "0x00202008"
+    product_code: "0x00000000"
+    counts_per_rev: 131072 # 夹爪位置值/速度值在0到0.05rad 之间设定，对应0-1000个脉冲
+    pdo_channel: gripper
+    rated_torque: 20.0  # 夹爪扭矩值不要超过4Nm
+
+  - name: r_hand
+    alias: 1117
+    vendor_id: "0x00202008"
+    product_code: "0x00000000"
+    counts_per_rev: 131072
+    pdo_channel: gripper
+    rated_torque: 20.0  # N*m
+
+  - name: motor_19
+    alias: 1118
+    vendor_id: "0x00202008"
+    product_code: "0x00000000"
+    pdo_channel: pdo260224
+    rated_torque: 20.0  # N*m
+
+  # - name: motor_20
+  #   alias: 1119
+  #   vendor_id: "0x00202008"
+  #   product_code: "0x00000000"
+  #   pdo_channel: pvt
+  #   rated_torque: 20.0  # N*m
+
+  # - name: gripper1
+  #   alias: 1120
+  #   vendor_id: "0x00202008"
+  #   product_code: "0x00000000"
+  #   pdo_channel: gripper
+  #   rated_torque: 20.0  # N*m
+
+  # - name: test_motor
+  #   alias: 1118
+  #   vendor_id: "0x00202008"
+  #   product_code: "0x00000000"
+  #   pdo_channel: pdo260224
+  #   # pdo_channel: pvt
+  #   rated_torque: 50.0  # N*m
+
+  # - name: test_motor
+  #   alias: 1119
+  #   vendor_id: "0x00202008"
+  #   product_code: "0x00000000"
+  #   pdo_channel: pdo260224
+  #   # pdo_channel: pvt
+  #   rated_torque: 50.0  # N*m
+
+  # - name: test_motor
+  #   alias: 1200
+  #   vendor_id: "0x00202008"
+  #   product_code: "0x00000000"
+  #   # pdo_channel: pdo260224
+  #   pdo_channel: pvt
+  #   rated_torque: 50.0  # N*m
